@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "last_updated": "2025-03-30T19:58:59.422062",
+  "devices": [
+    {
+      "name": "Example Device",
+      "mac_address": "aa:bb:cc:dd:ee:ff",
+      "ip_address": "192.168.0.100",
+      "device_type": "example",
+      "hostname": "example.local",
+      "os": {
+        "name": "Example OS",
+        "version": "1.0",
+        "kernel": "1.0.0"
+      },
+      "first_seen": "2025-03-30T00:00:00.000000",
+      "last_seen": "2025-03-30T00:00:00.000000",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T00:00:00.000000",
+          "ip_address": "192.168.0.100",
+          "status": "online"
+        }
+      ],
+      "chips": []
+    },
+    {
+      "ip_address": "192.168.0.0",
+      "mac_address": "ff:ff:ff:ff:ff:ff",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "network_device",
+      "first_seen": "2025-03-30T19:58:59.421273",
+      "last_seen": "2025-03-30T19:58:59.421273",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421273",
+          "ip_address": "192.168.0.0",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.1",
+      "mac_address": "0:11:32:fb:ef:3",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "linux_server",
+      "open_ports": [
+        22,
+        80,
+        443,
+        515,
+        631
+      ],
+      "os": "Linux 3.10 - 4.11",
+      "first_seen": "2025-03-30T19:58:59.421308",
+      "last_seen": "2025-03-30T19:58:59.421308",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421308",
+          "ip_address": "192.168.0.1",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.11",
+      "mac_address": "d6:88:b0:30:1f:d1",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "network_device",
+      "first_seen": "2025-03-30T19:58:59.421327",
+      "last_seen": "2025-03-30T19:58:59.421327",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421327",
+          "ip_address": "192.168.0.11",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.41",
+      "mac_address": "dc:a6:32:ee:a0:96",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)",
+      "device_type": "linux_server",
+      "first_seen": "2025-03-30T19:58:59.421344",
+      "last_seen": "2025-03-30T19:58:59.421344",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421344",
+          "ip_address": "192.168.0.41",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.42",
+      "mac_address": "dc:a6:32:ee:a0:7e",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)",
+      "device_type": "linux_server",
+      "first_seen": "2025-03-30T19:58:59.421360",
+      "last_seen": "2025-03-30T19:58:59.421360",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421360",
+          "ip_address": "192.168.0.42",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.51",
+      "mac_address": "d8:3a:dd:9c:91:80",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)",
+      "device_type": "linux_server",
+      "first_seen": "2025-03-30T19:58:59.421375",
+      "last_seen": "2025-03-30T19:58:59.421375",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421375",
+          "ip_address": "192.168.0.51",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.91",
+      "mac_address": "0:e0:4c:11:7d:9b",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)",
+      "device_type": "linux_server",
+      "first_seen": "2025-03-30T19:58:59.421389",
+      "last_seen": "2025-03-30T19:58:59.421389",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421389",
+          "ip_address": "192.168.0.91",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.113",
+      "mac_address": "dc:e5:5b:40:b9:f2",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "network_device",
+      "first_seen": "2025-03-30T19:58:59.421404",
+      "last_seen": "2025-03-30T19:58:59.421404",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421404",
+          "ip_address": "192.168.0.113",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.124",
+      "mac_address": "5a:4d:cb:1a:70:96",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Apple macOS 11 (Big Sur) - 13 (Ventura) or iOS 16 (Darwin 20.6.0 - 22.4.0)",
+      "device_type": "mac",
+      "first_seen": "2025-03-30T19:58:59.421416",
+      "last_seen": "2025-03-30T19:58:59.421416",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421416",
+          "ip_address": "192.168.0.124",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.147",
+      "mac_address": "64:4b:f0:19:b4:f7",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "network_device",
+      "first_seen": "2025-03-30T19:58:59.421428",
+      "last_seen": "2025-03-30T19:58:59.421428",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421428",
+          "ip_address": "192.168.0.147",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.150",
+      "mac_address": "8a:40:fa:4c:d1:91",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "device_type": "network_device",
+      "first_seen": "2025-03-30T19:58:59.421440",
+      "last_seen": "2025-03-30T19:58:59.421440",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421440",
+          "ip_address": "192.168.0.150",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "ip_address": "192.168.0.165",
+      "mac_address": "ba:53:4:3d:cf:d3",
+      "hostname": "",
+      "vendor": "Unknown",
+      "source": "arp_table",
+      "os": "Apple iOS 14.0 - 15.6 or tvOS 14.3 - 16.1 (Darwin 20.0.0 - 22.1.0)",
+      "device_type": "mac",
+      "first_seen": "2025-03-30T19:58:59.421453",
+      "last_seen": "2025-03-30T19:58:59.421453",
+      "scan_history": [
+        {
+          "timestamp": "2025-03-30T19:58:59.421453",
+          "ip_address": "192.168.0.165",
+          "status": "online"
+        }
+      ]
+    }
+  ]
+}

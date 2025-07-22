@@ -1,0 +1,31 @@
+# Chip-Map Configuration File
+
+# Network scanning settings
+network:
+  scan_timeout: 300  # Timeout in seconds
+  ip_range: "192.168.0.0/24"  # Default IP range to scan
+  exclude_ips: []  # IPs to exclude from scanning
+  ports_to_scan: [22, 80, 443, 2126, 5000, 8080]  # Common ports to check
+
+# SSH settings
+ssh:
+  connection_timeout: 10  # Timeout in seconds
+  known_hosts_policy: "auto_add"  # Options: auto_add, strict
+
+# Output settings
+output:
+  device_dir: "devices"
+  chip_dir: "chips"
+  scan_dir: "scans"
+  
+# Database settings
+database:
+  registry_file: "db/device-registry.json"
+  backup_dir: "db/backups"
+  backup_count: 5  # Number of backups to keep
+
+# Scanning options
+scanning:
+  scan_host: true  # Scan the host machine
+  scan_network: true  # Scan the network
+  prioritize_completeness: true  # Prioritize info completeness over speed
