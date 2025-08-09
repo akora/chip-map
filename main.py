@@ -72,6 +72,11 @@ def parse_arguments():
         action="store_true",
         help="Enable verbose output"
     )
+    parser.add_argument(
+        "--enhanced", 
+        action="store_true",
+        help="Enable enhanced scanning (SSH banner analysis, etc.)"
+    )
     return parser.parse_args()
 
 
@@ -108,7 +113,7 @@ def run_scan(config, args):
         use_sudo = config.get("network", {}).get("use_sudo", True)
         logger.info(f"Scanning network: {ip_range}...")
         try:
-            network_devices = network_scanner.discover_devices(ip_range, use_sudo=use_sudo)
+            network_devices = network_scanner.discover_devices(ip_range, use_sudo=use_sudo, enhanced_scan=args.enhanced)
             for device in network_devices:
                 # Process each discovered device
                 existing = registry.find_by_mac(device.get("mac_address"))
