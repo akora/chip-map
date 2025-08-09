@@ -1,9 +1,10 @@
-# Chip-Map Configuration File
+# Chip-Map Configuration File (Example Template)
+# Copy this file to config.yaml and customize for your environment
 
 # Network scanning settings
 network:
   scan_timeout: 300  # Timeout in seconds
-  ip_range: "192.168.0.0/24"  # Default IP range to scan
+  ip_range: "192.168.1.0/24"  # Your local IP range to scan
   exclude_ips: []  # IPs to exclude from scanning
   ports_to_scan: [22, 80, 443, 2126, 5000, 8080]  # Common ports to check
 
