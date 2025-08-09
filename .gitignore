@@ -1,9 +1,10 @@
 # Sensitive files and local data
-config/credentials.yaml
+# Configuration files with sensitive data
 config/config.yaml
+config/credentials.yaml
 *.yaml
 *.yml
-
+*.json
 # Local network data (contains IP addresses, MAC addresses, hostnames)
 devices/
 scans/
@@ -15,6 +16,7 @@ db/
 !scans/README.md
 !db/README.md
 !config/config.example.yaml
+!config/credentials.example.yaml
 !**/example*.json
 !**/template*.json
 !**/sample*.json

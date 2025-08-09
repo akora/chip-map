@@ -74,10 +74,17 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-1. Configure device credentials:
+1. Configure device credentials (optional, for SSH-based remote chip discovery):
 
-   * Edit [`config/credentials.yaml`](config/credentials.yaml) with your device access information.
-   * Ensure this file is not committed to version control.
+   ```bash
+   # Copy the example credentials file
+   cp config/credentials.example.yaml config/credentials.yaml
+   
+   # Edit with your device SSH access information
+   nano config/credentials.yaml
+   ```
+
+   * The `credentials.yaml` file is automatically excluded from git commits for security.
 
 ### Usage
 
